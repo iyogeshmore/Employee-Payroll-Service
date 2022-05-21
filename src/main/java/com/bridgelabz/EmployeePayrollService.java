@@ -36,5 +36,6 @@ public class EmployeePayrollService {
             double salary = data.nextDouble();
             EmployeePayroll empData = new EmployeePayroll(id, name, salary);
             emplyeePayrollList.add(empData);
+
         }
 }
